@@ -1,17 +1,33 @@
 {
   "name": "coloured-log",
   "description": "Combines \"coloured\" and \"log.js\" for super simple pretty logging.",
-  "version": "0.9.7",
-  "author": "Ben Truyman <bentruyman@gmail.com>",
+  "version": "0.9.8",
+  "author": {
+    "name": "Ben Truyman",
+    "email": "bentruyman@gmail.com"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/bentruyman/coloured-log"
+    "url": "http://github.com/sitedistrict/coloured-log"
   },
   "dependencies": {
-    "coloured": ">= 0.2.0",
+    "coloured": "git+https://github.com/sitedistrict/coloured.git",
     "log": ">= 1.2.0"
   },
-  "keywords": ["coloured", "log", "logger"],
+  "keywords": [
+    "coloured",
+    "log",
+    "logger"
+  ],
   "main": "./lib/coloured-log",
-  "engines": { "node": ">= 0.2.0" }
+  "engines": {
+    "node": ">= 0.2.0"
+  },
+  "maintainers": [
+    {
+      "name": "Matt Kopala",
+      "email": "mkopala@sitedistrict.com"
+    }
+  ],
+  "directories": {}
 }
