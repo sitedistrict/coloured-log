@@ -14,6 +14,9 @@
     "coloured": "git+https://github.com/sitedistrict/coloured.git",
     "log": ">= 1.2.0"
   },
+  "bundledDependencies": {
+    "coloured", "log"
+  },
   "keywords": [
     "coloured",
     "log",
